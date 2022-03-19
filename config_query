@@ -1,0 +1,4 @@
+page=cnninternational
+subject=ukraine
+maxPostToBeConsulted=20
+verbose[True/False]=True

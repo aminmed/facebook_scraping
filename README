@@ -1,0 +1,17 @@
+# This script 
+this script extract from a given facebook's page name, all posts related to a subject, 
+since public feed in facebook is restricted, this solution gives only posts in a given page
+
+## Use:
+### requirement:
+
+to run this script you need to have facebook-scraper python package installed ( pip install facebook-scraper)
+you need also pymongo installed ( pip -m install pymongo[srv])
+### config_mongodb
+define your connection string to the mongodb 
+if you have the entire string, you just paste it in conn_str
+else, if you use ATLAS, you need to provide a username, password and database name 
+### config_query
+define the subject you are looknig for in config_query file, give the page to look in,
+the maximum number of posts to extract and a verbose parameter to choose if you want explicit 
+progress in console ! 
